@@ -71,7 +71,7 @@ const isNegative = (num) => {
         return false
     }
 }
-console.log(isNegative(0)) */
+console.log(isNegative(0)) 
 
 //problem 8 
 
@@ -79,4 +79,13 @@ const triangleArea = (height, base) => {
     return (base * height) / 2;
 }
 
-console.log(triangleArea(3, 2));
+console.log(triangleArea(3, 2)); 
+//problem 9
+const betweenTwentyAndHundred =(num) => {
+    if(num >=20 && num <=100) {
+    return true
+    } else {
+    return false
+}
+}
+console.log(betweenTwentyAndHundred(101)) */
