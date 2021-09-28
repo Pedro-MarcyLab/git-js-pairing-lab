@@ -43,5 +43,11 @@ multiplesOfThreeOrFive()
 }
 
 untilNum(25);
-*/
 
+
+//problem 5
+const multiply = (num1, num2) => {
+    return num1 * num2
+};
+console.log(multiply(10, 2))
+*/
