@@ -113,3 +113,26 @@ let time = today.getHours() - 4 + ":" + today.getMinutes()
 //console.log(printTime());
 
 
+
+// problem 16 attempt, inefficient (nested loop), need to 
+//account for incorrect input and last character 
+// 
+const changeString = string => {
+    let changedString = [];
+    let alphabetArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g',
+    'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
+    't', 'u', 'v', 'w', 'x', 'y', 'z'];
+    for(let i = 0; i < alphabetArray.length; i++) {
+        for(let j = 0; j < string.length; j++) {
+            if(alphabetArray[i] === string[j]) {
+                changedString.push(alphabetArray[i + 1]);
+            }
+        }
+        
+    } return changedString.join('');
+    
+    
+}
+
+
+console.log(changeString('abc'));
