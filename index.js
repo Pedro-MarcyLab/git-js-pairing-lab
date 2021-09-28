@@ -2,12 +2,13 @@
 
 //problem 1
 
-/* function fiveToOneHundred(){
+ function fiveToOneHundred(){
     for(let i = 5; i <= 100; i++) {
         console.log(i)
     }
 }
 
+//fiveToOneHundred();
 
 //problem 2
 const multiplesOfThree = () => {
@@ -18,9 +19,7 @@ const multiplesOfThree = () => {
     }
 }
 
-multiplesOfThree()
-//fiveToOneHundred()
-
+//multiplesOfThree();
 
 //problem 3
 const multiplesOfThreeOrFive = () => {
@@ -30,37 +29,34 @@ const multiplesOfThreeOrFive = () => {
         }
     }
 }
-multiplesOfThreeOrFive()
-*/
-
+//multiplesOfThreeOrFive();
 
 //problem 4 
 
-/*const untilNum = (int) => {
+const untilNum = (int) => {
     for(let i = 1; i < int; i++) {
         console.log(i);
     }
 }
-
-untilNum(25);
-
+//untilNum(26);
 
 //problem 5
 const multiply = (num1, num2) => {
     return num1 * num2
 };
-console.log(multiply(10, 2))
-*/
+
+//console.log(multiply(2, 8));
+
 //problem 6
-/*const add = (num1, num2) => {
+const add = (num1, num2) => {
     if(num1 !== num2) {
         return num1 + num2;
     } else {
         return (num1 + num2) * 3;
     }
 }
+// console.log(add(7, 7));
 
-console.log(add(3, 3)); 
 //problem 7
 const isNegative = (num) => {
     if(num < 0) {
@@ -71,7 +67,8 @@ const isNegative = (num) => {
         return false
     }
 }
-console.log(isNegative(0)) 
+// console.log(isNegative(-6));
+
 
 //problem 8 
 
@@ -79,7 +76,8 @@ const triangleArea = (height, base) => {
     return (base * height) / 2;
 }
 
-console.log(triangleArea(3, 2)); 
+//console.log(triangleArea(4, 3));
+
 //problem 9
 const betweenTwentyAndHundred =(num) => {
     if(num >=20 && num <=100) {
@@ -88,11 +86,11 @@ const betweenTwentyAndHundred =(num) => {
     return false
 }
 }
-console.log(betweenTwentyAndHundred(101)) */
 
+//console.log(betweenTwentyAndHundred(77));
 //problem 10 
 
-/*const largest = (num1, num2, num3) => {
+const largest = (num1, num2, num3) => {
     if(num1 === num2 && num1 === num3) {
         return 'all of these values are the same!';
     } else if (num1 > num2 && num1 > num3) {
@@ -103,17 +101,15 @@ console.log(betweenTwentyAndHundred(101)) */
         return num3;
     }
 }
+//console.log(largest(10, 2, 35));
 
-console.log(largest(247, 247, 247))
-*/
-
-// lame fix to account for time zone xD
+// problem 11 lame fix to account for time zone xD
 const printTime = () => {
 let today = new Date();
 let time = today.getHours() - 4 + ":" + today.getMinutes()
 + ":" + today.getSeconds();
   return time; 
 }
+//console.log(printTime());
 
-console.log(printTime());
 
