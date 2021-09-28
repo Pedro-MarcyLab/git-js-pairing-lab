@@ -51,7 +51,7 @@ const multiply = (num1, num2) => {
 };
 console.log(multiply(10, 2))
 */
-
+//problem 6
 /*const add = (num1, num2) => {
     if(num1 !== num2) {
         return num1 + num2;
@@ -60,4 +60,15 @@ console.log(multiply(10, 2))
     }
 }
 
-console.log(add(3, 3)); */
+console.log(add(3, 3)); 
+//problem 7
+const isNegative = (num) => {
+    if(num < 0) {
+        return true
+    } else if (num ===0){
+        return "0 is niether positive nor negative"
+    }else{ 
+        return false
+    }
+}
+console.log(isNegative(0)) */
