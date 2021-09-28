@@ -106,3 +106,14 @@ console.log(betweenTwentyAndHundred(101)) */
 
 console.log(largest(247, 247, 247))
 */
+
+// lame fix to account for time zone xD
+const printTime = () => {
+let today = new Date();
+let time = today.getHours() - 4 + ":" + today.getMinutes()
++ ":" + today.getSeconds();
+  return time; 
+}
+
+console.log(printTime());
+
