@@ -51,3 +51,13 @@ const multiply = (num1, num2) => {
 };
 console.log(multiply(10, 2))
 */
+
+/*const add = (num1, num2) => {
+    if(num1 !== num2) {
+        return num1 + num2;
+    } else {
+        return (num1 + num2) * 3;
+    }
+}
+
+console.log(add(3, 3)); */
