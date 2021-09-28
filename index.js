@@ -89,3 +89,20 @@ const betweenTwentyAndHundred =(num) => {
 }
 }
 console.log(betweenTwentyAndHundred(101)) */
+
+//problem 10 
+
+/*const largest = (num1, num2, num3) => {
+    if(num1 === num2 && num1 === num3) {
+        return 'all of these values are the same!';
+    } else if (num1 > num2 && num1 > num3) {
+        return num1;
+    } else if (num2 > num1 && num2 > num3) {
+        return num2;
+    } else if (num3 > num1 && num3 > num2) {
+        return num3;
+    }
+}
+
+console.log(largest(247, 247, 247))
+*/
